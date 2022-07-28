@@ -28,6 +28,7 @@
     text-align: center;
     color: #289BDE;
 }
+/* ---------------------------  */
 .hero-banner h1{
     font-family: 'Poppins';
     font-style: normal;
@@ -56,6 +57,7 @@
     text-align: center;
     color: #FFFFFF;
 }
+/* ------------------------------  */
 .section-title{
     font-family: 'Poppins';
     font-style: normal;
@@ -95,4 +97,40 @@
     font-size: 18px;
     line-height: 27px;
     color: #289BDE;
+}
+/* ---------------------------------------  */
+.working-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    color: #1D1D1D;
+}
+.working-description{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #777777;
+}
+.working-sub-description{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #777777;
+    
+}
+/* Website Buttons  */
+.course-button{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
 }
