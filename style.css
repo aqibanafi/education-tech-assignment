@@ -1,6 +1,12 @@
-/* Google Font - Poppins  */
+
+                                /* --------------------------------------------
+                                                Google Font - Poppins
+                                 -----------------------------------------------  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-/* Font Apply  */
+                            /* ------------------------------------------------
+                            Font Features And Font Family Apply In All Sections
+                            ---------------------------------------------------  */
+                                            /* Nav Section  */
 .navbar-brand{
     font-family: 'Poppins';
     font-style: normal;
@@ -28,7 +34,7 @@
     text-align: center;
     color: #289BDE;
 }
-/* ---------------------------  */
+                                            /* Hero Section  */
 .hero-banner h1{
     font-family: 'Poppins';
     font-style: normal;
@@ -48,17 +54,9 @@
     color: #F4F4F4;
 
 }
-.hero-banner button{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
-    color: #FFFFFF;
-}
-/* ------------------------------  */
-.section-title{
+
+                                            /* Course Section  */
+.course-section-title{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -66,7 +64,7 @@
     line-height: 60px;
     text-align: center;
 }
-.section-description{
+.course-section-description{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -98,7 +96,7 @@
     line-height: 27px;
     color: #289BDE;
 }
-/* ---------------------------------------  */
+                                            /* Working Section  */
 .working-title{
     font-family: 'Poppins';
     font-style: normal;
@@ -123,7 +121,27 @@
     line-height: 30px;
     color: #777777;
 }
-/* -----------------------------------  */
+                                            /* Join section  */
+.join-section{
+    background: #289BDE;
+}
+.join-section h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+.join-section p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #F4F4F4;
+}
+                                            /* Successful Student  */
 .student-section-title{
     font-family: 'Poppins';
     font-style: normal;
@@ -156,6 +174,7 @@
     line-height: 24px;
     color: #777777;
 }
+                                            /* Student Feedback  */
 .student-feedback-title{
     font-family: 'Poppins';
     font-style: normal;
@@ -174,6 +193,7 @@
     text-align: center;
     color: #777777;
 }
+                                            /* FAQ Section  */
 .faq-title{
     font-family: 'Poppins';
     font-style: normal;
@@ -192,7 +212,7 @@
     text-align: center;
     color: #777777;
 }
-.accordion-header{
+.accordion-button{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -208,6 +228,7 @@
     line-height: 30px;
     color: #777777;
 }
+                                            /* Trust Company List Section  */
 .trust-company-title{
     font-family: 'Poppins';
     font-style: normal;
@@ -216,6 +237,15 @@
     line-height: 60px;
     text-align: center;
     color: #1D1D1D;
+}
+                                            /* Footer Section  */
+footer{
+    background: #161616;
+}
+.footer-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .footer-header{
     font-family: 'Poppins';
@@ -247,7 +277,9 @@
 .fa-brands{
     color: #E8E8E8;
 }
-/* Website Buttons  */
+                            /* --------------------------------------------
+                                            Website Buttons
+                            -----------------------------------------------  */
 #button-text{
     font-family: 'Poppins';
     font-style: normal;
@@ -258,32 +290,14 @@
     color: #FFFFFF;
     background: #289BDE;
 }
-/* Font Awesome Icon  */
-.fa-star{
-    color: #FFD700;
-}
-.fa-star-half{
-    color: #FFD700;
-}
-/* Join section  */
-.join-section{
-    background: #289BDE;
-}
-.join-section h2{
+.hero-banner button{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 45px;
-    line-height: 60px;
-    color: #FFFFFF;
-}
-.join-section p{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 30px;
-    color: #F4F4F4;
+    text-align: center;
+    color: #FFFFFF;
 }
 .join-section button{
     font-family: 'Poppins';
@@ -294,16 +308,18 @@
     text-align: center;
     color: #289BDE;
 }
-/* Footer Section  */
-footer{
-    background: #161616;
+                            /* --------------------------------------------
+                                            Font Awesome Icon
+                            -----------------------------------------------  */
+.fa-star{
+    color: #FFD700;
 }
-.footer-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.fa-star-half{
+    color: #FFD700;
 }
-/* Media Query For One Image  */
+                            /* --------------------------------------------
+                                Media Query For Working Section Adjustment
+                            -----------------------------------------------  */
 @media screen and (max-width:767px) {
     .working-image{
         height: 500px;
