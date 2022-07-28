@@ -63,7 +63,7 @@
                         <div class="carousel-caption d-none d-md-block mb-5">
                           <h1>Get Started Digital Learning</h1>
                           <p>It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
-                          <button type="button" class="btn btn-primary btn-lg px-5">Get Started</button>
+                          <button id="button-text" type="button" class="btn btn-lg px-5">Get Started</button>
                         </div>
                       </div>
                       <div class="carousel-item">
@@ -71,7 +71,7 @@
                         <div class="carousel-caption d-none d-md-block mb-5">
                             <h1>Get Started Digital Learning</h1>
                             <p>It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
-                            <button type="button" class="btn btn-primary btn-lg px-5">Get Started</button>
+                            <button id="button-text" type="button" class="btn btn-lg px-5">Get Started</button>
                         </div>
                       </div>
                       <div class="carousel-item">
@@ -79,7 +79,7 @@
                         <div class="carousel-caption d-none d-md-block mb-5">
                             <h1>Get Started Digital Learning</h1>
                             <p>It is a long established fact that a reader will be distracted by the readable br content of a page when looking at its layout.</p>
-                            <button type="button" class="btn btn-primary btn-lg px-5">Get Started</button>
+                            <button id="button-text" type="button" class="btn btn-lg px-5">Get Started</button>
                         </div>
                       </div>
                     </div>
@@ -169,7 +169,7 @@
                 </div>
             </div>
             <div class="d-flex justify-content-center course-button mt-5">
-                <button type="button" class=" btn btn-primary btn-lg px-5">See More Courses</button>
+                <button id="button-text" type="button" class=" btn btn-lg px-5">See More Courses</button>
             </div>
         </section>
         <!-- Course Section End -->
@@ -201,21 +201,59 @@
                     </div>
                 </div>
                 <div class="d-flex justify-content-start course-button">
-                  <button type="button" class=" btn btn-primary btn-lg px-4">Read More</button>
+                  <button id="button-text" type="button" class=" btn btn-lg px-4">Read More</button>
                 </div>
               </div>
           </div>
         </section>
         <!-- Working Section End  -->
         <!-- Join Section Start  -->
-        <section class="container join-section">
+        <section class="container join-section d-flex justify-content-center">
             <div class="d-flex justify-content-around align-items-center">
-              <div>
+              <div class="p-5">
                 <h2>Ready to join?</h2>
                 <p>It is a long established fact that a reader will be distracted by the <br> readable content of a page when looking at its layout.</p>
               </div>
-              <div class="">
-                <button type="button" class="btn btn-light px-5">Register Now</button>
+              <div class="p-5">
+                <button type="button" class="btn btn-light px-5" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Register Now</button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <form>
+                              <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Full Name</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                              </div>
+                              <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Email Address</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                              </div>
+                              <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Phone Number</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                              </div>
+                              <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Country</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                              </div>
+                              <div class="mb-3">
+                                <label for="message-text" class="col-form-label">Message</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-light">Send message</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
               </div>
             </div>
         </section>
@@ -279,7 +317,7 @@
             </div>
           </div>
           <div class="d-flex justify-content-center course-button mt-5">
-            <button type="button" class=" btn btn-primary btn-lg px-5">View All</button>
+            <button id="button-text" type="button" class=" btn btn-lg px-5">View All</button>
           </div>
         </section>
         <!-- Successful Student Section End -->
@@ -448,22 +486,34 @@
     </main>
     <!-- Footer Start  -->
     <footer class="bg-dark">
-        <section class="container">
+        <section class="container footer-section p-5">
+          <div class="d-flex-column justify-content-center">
             <div>
-              <p>Education Tech</p>
-              <p>Office 41, Zawaya Buildin, Ghala Muscat, <br> Sultanate of Oman</p>
-              <p>Privacy Ploicy  |   Terms of use</p>
+              <p class="footer-header">Education Tech</p>
+              <p class="footer-text-1">Office 41, Zawaya Buildin, Ghala Muscat, <br> Sultanate of Oman</p>
+              <p class="footer-text-2">Privacy Ploicy  |   Terms of use</p>
             </div>
-            <div>
-              <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
-              <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
-              <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
-              <a href="https://www.tiktok.com/"><i class="fa-brands fa-tiktok"></i></a>
+            <div class="d-flex justify-content-center">
+              <a class="me-3" href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+              <a class="me-3" href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+              <a class="me-3" href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+              <a class="me-3" href="https://www.tiktok.com/"><i class="fa-brands fa-tiktok"></i></a>
               <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
             </div>
+          </div>
+            
         </section>
     </footer>
     <!-- Footer End  -->
+    <!-- Modal Javascript Code  -->
+    <script>
+      const myModal = document.getElementById('myModal')
+      const myInput = document.getElementById('myInput')
+
+      myModal.addEventListener('shown.bs.modal', () => {
+      myInput.focus()
+})
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
