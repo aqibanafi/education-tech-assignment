@@ -303,3 +303,19 @@ footer{
     justify-content: center;
     align-items: center;
 }
+/* Media Query For One Image  */
+@media screen and (max-width:767px) {
+    .working-image{
+        height: 500px;
+        width: 320px;
+    }
+}
+@media screen and (min-width:768px) and (max-width: 1023px) {
+    .working-image{
+        height: 700px;
+        width: 350px;
+    }
+    .working-content{
+        width: 500px;
+    }
+}
