@@ -192,6 +192,22 @@
     text-align: center;
     color: #777777;
 }
+.accordion-header{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4A4A4A;
+}
+.accordion-body{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #777777;
+}
 /* Website Buttons  */
 .course-button{
     font-family: 'Poppins';
